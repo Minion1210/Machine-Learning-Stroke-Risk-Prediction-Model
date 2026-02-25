@@ -1,4 +1,4 @@
-# Machine-Learning-Stroke-Risk-Prediction-Model
+# Machine-Learning__Stroke-Risk-Prediction-Model
 
 I.Objective
 To establish an efficient machine learning predictive model aimed at the early identification of high-risk stroke groups. 
