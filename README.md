@@ -30,7 +30,7 @@ Analogous Neural Network (ANN)
 
 Model Performance: In the tests of various models, ANN (Analogous Neural Network) demonstrated good predictive ability on the test set.
 
-Key Influencing Factors: According to model analysis (such as odds ratio or feature weights), age, hypertension, and average blood glucose levels are the most important factors for predicting stroke risk.
+Key Influencing Factors: According to model analysis age, hypertension, and average blood glucose levels are the most important factors for predicting stroke risk.
 
 Confusion Matrix and ROC Curve: The report comprehensively evaluates the performance of each model through the confusion matrix, precision, recall, and AUC curve.
 
