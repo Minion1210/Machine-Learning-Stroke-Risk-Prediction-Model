@@ -1,39 +1,34 @@
 # Machine-Learning-Stroke-Risk-Prediction-Model
 
-Objective: To establish a predictive model to effectively assess stroke risk, helping patients prevent stroke in advance (e.g., adjusting diet, controlling hypertension, hyperlipidemia, and hyperglycemia), thereby reducing medical expenses and economic burden after the onset of stroke.
+I.Objective
+To establish an efficient machine learning predictive model aimed at the early identification of high-risk stroke groups. 
 
-1. Key Input Variables:
-* Physiological Indicators: Age, gender, history of hypertension, history of heart disease, average blood glucose level, BMI.
-* Lifestyle: Marital status, occupation, living environment (urban/suburban), smoking habits.
-* Predictive Output: Stroke status (1: Yes / 0: No).
+II. Data Features & Preprocessing
+Key Input Variables (Inputs):
 
-2. Data Preprocessing
-* Missing Value Handling: For missing BMI values, imputation is performed using the mean, and the data is visualized.
-* Variable Transformation: Categorical data (e.g., gender, occupation, smoking habits) are converted into numerical codes.
+Physiological Indicators: Age, Gender, History of Hypertension, History of Heart Disease, Average Blood Glucose Level, and BMI.
 
-3. Research Methods and Model Evaluation
-* Validation Mechanism: An 80/20 split is used, with 80% of the data used for model training and 20% for testing and validation.
+Lifestyle: Marital Status, Occupation, Residence Type (Urban/Rural), and Smoking Status.
 
-The report compares several machine learning algorithms, including:
+Predictive Output: Stroke Status (1: Yes / 0: No).
 
-Logistic Regression
+Preprocessing Techniques:
 
-Support Vector Machine (SVM)
+Missing Value Handling: Applied Mean Imputation for missing BMI values.
 
-K-Nearest Neighbors (KNN)
+Variable Transformation: Conducted Numerical Encoding for categorical data (e.g., occupation, smoking status) to facilitate algorithmic computation.
 
-Decision Tree
+III. Methodology & Validation
+Validation Mechanism: Utilized an 80/20 Train-Test Split (80% for training, 20% for testing).
 
-Analogous Neural Network (ANN)
+Algorithms Compared: Conducted a comparative analysis of Logistic Regression, Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Decision Tree, and Artificial Neural Network (ANN).
 
-4. Research Results and Findings
+IV. Research Results & Findings
+Best Performance: Empirical results demonstrate that the ANN (Artificial Neural Network) achieved the superior predictive performance on the test set.
 
-Model Performance: In the tests of various models, ANN (Analogous Neural Network) demonstrated good predictive ability on the test set.
+Key Predictors: Data analysis indicates that Age, Hypertension, and Average Blood Glucose Level are the most critical indicators for predicting stroke risk.
 
-Key Influencing Factors: According to model analysis age, hypertension, and average blood glucose levels are the most important factors for predicting stroke risk.
+Evaluation Metrics: A comprehensive performance evaluation was conducted using Confusion Matrices, Precision, Recall, and the AUC (Area Under the Curve).
 
-Confusion Matrix and ROC Curve: The report comprehensively evaluates the performance of each model through the confusion matrix, precision, recall, and AUC curve.
-
-5. Conclusions and Application Value
-
-Technical Conclusion: Big data and machine learning can effectively identify high-risk groups for stroke.
+V. Conclusion & Application Value
+Big data and machine learning technologies can effectively identify high-risk stroke populations, providing essential clinical decision support. This achieves the core values ​​of early warning and proactive health management.
